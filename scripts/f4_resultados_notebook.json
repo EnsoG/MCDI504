@@ -1,0 +1,215 @@
+{
+  "resultados_modelos": [
+    {
+      "Modelo": "MLP 1 capa oculta",
+      "Accuracy": 0.508,
+      "Precision": 0.5182,
+      "Recall": 0.525,
+      "F1-score": 0.5216,
+      "Especificidad": 0.4903,
+      "TN": 254,
+      "FP": 264,
+      "FN": 257,
+      "TP": 284
+    },
+    {
+      "Modelo": "SVM",
+      "Accuracy": 0.5052,
+      "Precision": 0.5145,
+      "Recall": 0.5564,
+      "F1-score": 0.5346,
+      "Especificidad": 0.4517,
+      "TN": 234,
+      "FP": 284,
+      "FN": 240,
+      "TP": 301
+    },
+    {
+      "Modelo": "Árbol de Decisión",
+      "Accuracy": 0.5033,
+      "Precision": 0.5142,
+      "Recall": 0.5028,
+      "F1-score": 0.5084,
+      "Especificidad": 0.5039,
+      "TN": 261,
+      "FP": 257,
+      "FN": 269,
+      "TP": 272
+    },
+    {
+      "Modelo": "Naive Bayes",
+      "Accuracy": 0.5033,
+      "Precision": 0.5117,
+      "Recall": 0.6063,
+      "F1-score": 0.555,
+      "Especificidad": 0.3958,
+      "TN": 205,
+      "FP": 313,
+      "FN": 213,
+      "TP": 328
+    },
+    {
+      "Modelo": "MLP 2 capas ocultas",
+      "Accuracy": 0.4967,
+      "Precision": 0.507,
+      "Recall": 0.5323,
+      "F1-score": 0.5194,
+      "Especificidad": 0.4595,
+      "TN": 238,
+      "FP": 280,
+      "FN": 253,
+      "TP": 288
+    },
+    {
+      "Modelo": "KNN",
+      "Accuracy": 0.4948,
+      "Precision": 0.5052,
+      "Recall": 0.5397,
+      "F1-score": 0.5219,
+      "Especificidad": 0.4479,
+      "TN": 232,
+      "FP": 286,
+      "FN": 249,
+      "TP": 292
+    },
+    {
+      "Modelo": "MLP 3 capas ocultas",
+      "Accuracy": 0.4693,
+      "Precision": 0.4807,
+      "Recall": 0.4824,
+      "F1-score": 0.4815,
+      "Especificidad": 0.4556,
+      "TN": 236,
+      "FP": 282,
+      "FN": 280,
+      "TP": 261
+    }
+  ],
+  "cv_folds": [
+    {
+      "Fold": 1,
+      "Accuracy": 0.5089,
+      "Precision": 0.5448,
+      "Recall": 0.5329,
+      "F1-score": 0.5388,
+      "Iteraciones": 500,
+      "Convergencia": "No (alcanzo max_iter)"
+    },
+    {
+      "Fold": 2,
+      "Accuracy": 0.4947,
+      "Precision": 0.4768,
+      "Recall": 0.5567,
+      "F1-score": 0.5136,
+      "Iteraciones": 500,
+      "Convergencia": "No (alcanzo max_iter)"
+    },
+    {
+      "Fold": 3,
+      "Accuracy": 0.4935,
+      "Precision": 0.4957,
+      "Recall": 0.5412,
+      "F1-score": 0.5174,
+      "Iteraciones": 500,
+      "Convergencia": "No (alcanzo max_iter)"
+    },
+    {
+      "Fold": 4,
+      "Accuracy": 0.4941,
+      "Precision": 0.5034,
+      "Recall": 0.522,
+      "F1-score": 0.5125,
+      "Iteraciones": 500,
+      "Convergencia": "No (alcanzo max_iter)"
+    },
+    {
+      "Fold": 5,
+      "Accuracy": 0.5024,
+      "Precision": 0.5278,
+      "Recall": 0.5124,
+      "F1-score": 0.52,
+      "Iteraciones": 500,
+      "Convergencia": "No (alcanzo max_iter)"
+    }
+  ],
+  "cv_resumen": {
+    "Accuracy_media": 0.4987,
+    "Accuracy_std": 0.0067,
+    "Precision_media": 0.5097,
+    "Precision_std": 0.0268,
+    "Recall_media": 0.533,
+    "Recall_std": 0.0171,
+    "F1_media": 0.5205,
+    "F1_std": 0.0107
+  },
+  "cv_matriz_agregada": [
+    [
+      959,
+      1111
+    ],
+    [
+      1011,
+      1152
+    ]
+  ],
+  "cv_especificidad_agregada": 0.4633,
+  "linea_base_test": 0.5109,
+  "ic95_accuracy_modelos": [
+    {
+      "Modelo": "MLP 1 capa oculta",
+      "Accuracy": 0.508,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4779,
+      "IC95_superior": 0.5381,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "SVM",
+      "Accuracy": 0.5052,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4751,
+      "IC95_superior": 0.5353,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "Árbol de Decisión",
+      "Accuracy": 0.5033,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4732,
+      "IC95_superior": 0.5334,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "Naive Bayes",
+      "Accuracy": 0.5033,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4732,
+      "IC95_superior": 0.5334,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "MLP 2 capas ocultas",
+      "Accuracy": 0.4967,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4666,
+      "IC95_superior": 0.5268,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "KNN",
+      "Accuracy": 0.4948,
+      "Error_estandar": 0.0154,
+      "IC95_inferior": 0.4647,
+      "IC95_superior": 0.5249,
+      "Contiene_linea_base": true
+    },
+    {
+      "Modelo": "MLP 3 capas ocultas",
+      "Accuracy": 0.4693,
+      "Error_estandar": 0.0153,
+      "IC95_inferior": 0.4393,
+      "IC95_superior": 0.4994,
+      "Contiene_linea_base": false
+    }
+  ]
+}
